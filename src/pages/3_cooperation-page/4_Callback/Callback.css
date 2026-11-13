@@ -1,0 +1,61 @@
+.callback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.callback__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 86.25rem;
+  padding: 1.25rem 0.625rem;
+  border-radius: 0.625rem;
+  background-color: rgb(111, 115, 238);
+}
+.callback__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 69.375rem;
+}
+.callback__title {
+  max-width: 31.25rem;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.callback__form {
+  display: flex;
+  gap: 1.25rem;
+}
+.callback__phone {
+  width: 100%;
+  max-width: 16.938rem;
+  height: 3.313rem;
+  padding: 0.938rem 1.563rem;
+  border-radius: 0.313rem;
+  background-color: rgb(140, 143, 241);
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.callback__phone::placeholder {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.callback__button {
+  width: 100%;
+  max-width: 14.375rem;
+  height: 3.313rem;
+  border: 1px solid rgb(111, 115, 238);
+  border-radius: 0.313rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1rem;
+  color: rgb(111, 115, 238);
+}
+.callback__button:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(111, 115, 238);
+  color: rgb(255, 255, 255);
+}

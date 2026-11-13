@@ -1,0 +1,101 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 49.313rem;
+}
+.categories__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 69.375rem;
+  min-height: 49.313rem;
+}
+.categories__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.categories__title {
+  font-size: 2.188rem;
+  color: rgb(40, 39, 57);
+}
+.categories__manager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.188rem;
+  max-width: 17.438rem;
+  min-height: 5.688rem;
+  padding: 0.625rem;
+  border-radius: 0.313rem;
+  background-color: rgb(244, 247, 251);
+}
+.categories__manager-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.categories__manager-text {
+  max-width: 10.625rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: rgb(40, 39, 57);
+}
+.categories__manager-link {
+  font-size: 0.75rem;
+  line-height: 2;
+  color: rgb(111, 115, 238);
+  transition: all 0.3s ease;
+}
+.categories__manager-link:hover {
+  text-decoration: underline;
+}
+.categories__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.875rem;
+}
+.categories__card {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 15.938rem;
+  min-height: 15.938rem;
+  padding: 0.625rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.categories__card--vacuum {
+  background-image: url(../img/categories/vacuum.png);
+}
+.categories__card--bike {
+  background-image: url(../img/categories/bike.png);
+}
+.categories__card--scales {
+  background-image: url(../img/categories/scales.png);
+}
+.categories__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  width: 100%;
+  padding: 0.625rem 1rem;
+  border-radius: 0.625rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+.categories__name {
+  width: 85%;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+}
+.categories__price {
+  width: 85%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+}

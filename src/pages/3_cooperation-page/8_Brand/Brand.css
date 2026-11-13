@@ -1,0 +1,28 @@
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.brand__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 69.375rem;
+}
+.brand__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 28.125rem;
+}
+.brand__text {
+  font-size: 1rem;
+  color: rgb(40, 39, 57);
+}
+.brand__image img {
+  border-radius: 0.625rem;
+  box-shadow: 3px 20px 30px rgba(127, 131, 253, 0.2);
+}/*# sourceMappingURL=Brand.css.map */

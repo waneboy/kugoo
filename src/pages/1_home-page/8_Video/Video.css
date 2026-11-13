@@ -1,0 +1,40 @@
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.video__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 86.25rem;
+  min-height: 39.375rem;
+  border-radius: 0.625rem;
+  background-image: url(../img/video-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.video__play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.5rem;
+  height: 8.5rem;
+  border-radius: 6.25rem;
+  background-color: rgb(255, 255, 255);
+}
+.video__play img {
+  transition: all 0.3s ease;
+}
+.video__play:hover {
+  transform: scale(0.95);
+}
+.video__play:hover img {
+  transform: scale(1.35);
+}/*# sourceMappingURL=Video.css.map */

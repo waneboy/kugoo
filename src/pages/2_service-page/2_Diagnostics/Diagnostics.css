@@ -1,0 +1,112 @@
+.diagnostics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 38.125rem;
+}
+.diagnostics__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 69.375rem;
+  min-height: 38.125rem;
+}
+.diagnostics__title {
+  font-size: 2.188rem;
+  text-align: center;
+  color: rgb(40, 39, 57);
+}
+.diagnostics__main {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  min-height: 27.5rem;
+}
+.diagnostics__column {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 18.75rem;
+}
+.diagnostics__column--left {
+  text-align: right;
+}
+.diagnostics__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  height: 6.875rem;
+}
+.diagnostics__item h3 {
+  font-size: 1.25rem;
+  color: rgb(40, 39, 57);
+}
+.diagnostics__item p {
+  max-width: 18.75rem;
+  min-height: 6.313rem;
+  font-size: 0.875rem;
+  white-space: pre-line;
+  color: rgb(40, 39, 57);
+}
+.diagnostics__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 27.5rem;
+  height: 27.5rem;
+  border: 1px dashed rgb(234, 235, 237);
+  border-radius: 50%;
+}
+.diagnostics__circle:hover {
+  cursor: pointer;
+}
+.diagnostics__circle:hover .diagnostics__play {
+  transform: scale(0.85);
+}
+.diagnostics__circle:hover .diagnostics__play img {
+  transform: scale(1.7);
+}
+.diagnostics__circle-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 26.063rem;
+  height: 100%;
+  max-height: 26.063rem;
+  border-radius: 50%;
+  background-color: rgb(244, 247, 251);
+}
+.diagnostics__circle-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 24.625rem;
+  height: 100%;
+  max-height: 24.625rem;
+  border-radius: 50%;
+  background-image: url(../img/diagnostics-scooter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.diagnostics__play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.diagnostics__play img {
+  width: 1.563rem;
+  height: 1.563rem;
+  transition: all 0.3s ease;
+}

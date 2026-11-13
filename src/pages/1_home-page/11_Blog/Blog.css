@@ -1,0 +1,113 @@
+.blog {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.blog__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  width: 100%;
+}
+.blog__title {
+  width: 100%;
+  max-width: 69.375rem;
+  margin: 0 auto;
+  font-size: 2.188rem;
+  color: rgb(40, 39, 57);
+}
+.blog__slider {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  min-height: 22.938rem;
+  padding: 0.625rem 0;
+  padding-left: calc((100% - 69.375rem) / 2);
+}
+.blog__slider .swiper-slide {
+  width: 21.875rem;
+  transition: width 0.2s ease;
+}
+.blog__slider .swiper-button-prev,
+.blog__slider .swiper-button-next {
+  position: absolute;
+  top: 6.25rem;
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 6.25rem;
+  background-color: rgb(111, 115, 238);
+  --swiper-navigation-color: rgb(255, 255, 255);
+}
+.blog__slider .swiper-button-prev svg,
+.blog__slider .swiper-button-next svg {
+  width: 0.625rem;
+  height: 1.125rem;
+}
+.blog__slider .swiper-button-prev {
+  left: calc(50% - 40.625rem);
+}
+.blog__slider .swiper-button-next {
+  right: calc(50% - 25rem);
+}
+.blog__card {
+  display: block;
+  width: 100%;
+  max-width: 21.875rem;
+  min-height: 21.875rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.blog__card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: scale(1.015);
+}
+.blog__image {
+  min-height: 11.25rem;
+}
+.blog__image--first {
+  background-image: url(../img/blog/article-1.png);
+}
+.blog__image--second {
+  background-image: url(../img/blog/article-2.png);
+}
+.blog__image--third {
+  background-image: url(../img/blog/article-3.png);
+}
+.blog__image--fourth {
+  background-image: url(../img/blog/article-4.png);
+}
+.blog__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 10.625rem;
+  padding: 1.25rem;
+  border-radius: 0 0 0.625rem 0.625rem;
+  background-color: rgb(244, 247, 251);
+}
+.blog__name {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: rgb(40, 39, 57);
+}
+.blog__text {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  color: rgb(40, 39, 57);
+}
+.blog__stats {
+  display: flex;
+  align-items: center;
+  gap: 1.563rem;
+}
+.blog__stat {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.blog__stat p {
+  font-size: 0.75rem;
+  line-height: 1.2;
+  color: rgb(93, 108, 123);
+}

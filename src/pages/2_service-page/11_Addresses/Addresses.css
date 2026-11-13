@@ -1,0 +1,78 @@
+.addresses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 18.75rem;
+}
+.addresses__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.125rem;
+  width: 100%;
+  min-height: 18.75rem;
+}
+.addresses__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 86.25rem;
+  min-height: 18.75rem;
+  padding: 0 0.625rem;
+  border-radius: 0.625rem;
+  background-color: rgb(244, 247, 251);
+}
+.addresses__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.938rem;
+  width: 100%;
+  max-width: 69.375rem;
+}
+.addresses__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.addresses__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+.addresses__city {
+  font-size: 1.25rem;
+  color: rgb(40, 39, 57);
+}
+.addresses__place {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.938rem;
+}
+.addresses__street {
+  font-size: 0.875rem;
+  color: rgb(40, 39, 57);
+}
+.addresses__time {
+  font-size: 0.875rem;
+  color: rgb(93, 108, 123);
+}
+.addresses__phone {
+  display: flex;
+  gap: 0.938rem;
+}
+.addresses__phone h3 {
+  font-size: 1rem;
+  color: rgb(40, 39, 57);
+}
+.addresses__note {
+  display: flex;
+  gap: 0.938rem;
+}
+.addresses__note p {
+  max-width: 15.625rem;
+  font-size: 0.875rem;
+  color: rgb(40, 39, 57);
+}

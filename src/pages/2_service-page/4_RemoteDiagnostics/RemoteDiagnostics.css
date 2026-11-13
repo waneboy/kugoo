@@ -1,0 +1,56 @@
+.remote-diagnostics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 26.313rem;
+}
+.remote-diagnostics__banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 86.25rem;
+  min-height: 26.313rem;
+  background-image: url(../img/remote-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.remote-diagnostics__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 1.563rem;
+  width: 100%;
+  max-width: 40.625rem;
+}
+.remote-diagnostics__label {
+  padding: 0.188rem 0.75rem;
+  border-radius: 0.313rem;
+  background-color: rgb(117, 209, 74);
+  font-size: 0.875rem;
+  color: rgb(255, 255, 255);
+}
+.remote-diagnostics__title {
+  max-width: 34.375rem;
+  font-size: 2.188rem;
+  color: rgb(255, 255, 255);
+}
+.remote-diagnostics__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 3.313rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.313rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(60, 137, 253);
+}
+.remote-diagnostics__button:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(60, 137, 253);
+  color: rgb(255, 255, 255);
+}

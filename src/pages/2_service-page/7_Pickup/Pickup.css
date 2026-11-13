@@ -1,0 +1,64 @@
+.pickup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 26.313rem;
+}
+.pickup__banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 86.25rem;
+  min-height: 30rem;
+  padding: 0 0.625rem;
+  background-image: url(../img/pickup-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pickup__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  width: 100%;
+  max-width: 69.375rem;
+  margin: 0 auto;
+}
+.pickup__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.313rem;
+}
+.pickup__title {
+  max-width: 35.625rem;
+  font-size: 2.188rem;
+  color: rgb(40, 39, 57);
+}
+.pickup__text {
+  font-size: 1rem;
+  color: rgb(40, 39, 57);
+}
+.pickup__prices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.938rem;
+}
+.pickup__prices-title {
+  font-size: 1.125rem;
+  color: rgb(40, 39, 57);
+}
+.pickup__rows {
+  display: flex;
+  gap: 1.875rem;
+}
+.pickup__row {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.pickup__row p {
+  font-size: 1rem;
+  color: rgb(40, 39, 57);
+}

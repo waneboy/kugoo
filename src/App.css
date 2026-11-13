@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+html {
+  overflow-x: hidden;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+}
+
+button {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+input {
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 6.25rem;
+  padding: 0 0.625rem;
+}
+
+.logo {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: rgb(10, 9, 13);
+}
+
+.section-title {
+  font-size: 2.188rem;
+  color: rgb(40, 39, 57);
+}
+
+.tab {
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
+  background-color: rgb(244, 247, 251);
+  font-size: 1rem;
+  color: rgb(93, 108, 123);
+}
+.tab--active {
+  border: 1px solid rgb(111, 115, 238);
+  background: none;
+  color: rgb(111, 115, 238);
+}
+
+.show-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.875rem;
+  height: 3.313rem;
+  margin: 0 auto;
+  border: 1px solid rgb(111, 115, 238);
+  border-radius: 0.313rem;
+  font-size: 1rem;
+  color: rgb(111, 115, 238);
+}
+.show-all:hover {
+  background-color: rgb(235, 236, 255);
+}
+
+.order-button {
+  width: 14.313rem;
+  height: 3.313rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.313rem;
+  background-color: rgb(111, 115, 238);
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.order-button:hover {
+  border: 1px solid rgb(111, 115, 238);
+  background-color: rgb(255, 255, 255);
+  color: rgb(111, 115, 238);
+}
+
+.text-link {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.75rem;
+  line-height: 2;
+  color: rgb(111, 115, 238);
+  transition: all 0.3s ease;
+}
+.text-link:hover {
+  text-decoration: underline;
+}

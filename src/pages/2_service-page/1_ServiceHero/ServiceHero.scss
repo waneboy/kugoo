@@ -1,0 +1,84 @@
+.service-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 26.313rem;
+
+  &__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 86.25rem;
+    min-height: 26.313rem;
+    padding: 0 0.625rem;
+    border-radius: 0.625rem;
+    background-image: url(../img/hero-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 69.375rem;
+    min-height: 18.75rem;
+  }
+
+  &__title {
+    max-width: 32.5rem;
+    font-size: 2.188rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__benefits {
+    display: flex;
+    align-items: center;
+    gap: 2.188rem;
+  }
+
+  &__benefit {
+    display: flex;
+    gap: 0.938rem;
+
+    p {
+      font-size: 0.875rem;
+      white-space: pre-line;
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  &__benefit-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.313rem;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  &__button {
+    width: 10.188rem;
+    height: 3.313rem;
+    border-radius: 0.313rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    color: rgb(243, 167, 18);
+
+    &:hover {
+      border: 1.5px solid rgb(255, 255, 255);
+      background-color: rgb(250, 184, 54);
+      color: rgb(255, 255, 255);
+    }
+  }
+}

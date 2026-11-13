@@ -1,0 +1,71 @@
+.offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.875rem;
+    width: 100%;
+    max-width: 69.375rem;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 36.25rem;
+    min-height: 14.688rem;
+    border-radius: 0.625rem;
+    background-color: rgb(244, 247, 251);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    &--selection {
+      background-image: url(../img/selection-background.png);
+    }
+
+    &--service {
+      background-image: url(../img/service-background.png);
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    height: 75%;
+  }
+
+  &__title {
+    max-width: 16.125rem;
+    font-size: 1.563rem;
+    line-height: 1.5;
+    color: rgb(40, 39, 57);
+  }
+
+  &__text {
+    max-width: 16.125rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(40, 39, 57);
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: rgb(111, 115, 238);
+
+    &:hover {
+      gap: 0.875rem;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 30.938rem;
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 86.25rem;
+    min-height: 30.938rem;
+    padding: 0 0.625rem;
+    border-radius: 0.625rem;
+    background-color: rgb(111, 115, 238);
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 69.375rem;
+    min-height: 30.938rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  &__label {
+    width: min-content;
+    padding: 0.188rem 0.5rem;
+    border-radius: 0.313rem;
+    background-color: rgb(117, 209, 74);
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__title {
+    color: rgb(255, 255, 255);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+
+  &__list-title {
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.438rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+
+    p {
+      font-size: 1rem;
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  &__form {
+    gap: 0.938rem;
+    border: 1px solid rgb(255, 255, 255);
+  }
+}

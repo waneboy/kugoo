@@ -1,0 +1,56 @@
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 27.813rem;
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 86.25rem;
+    min-height: 27.813rem;
+    padding: 0 0.625rem;
+    border-radius: 0.625rem;
+    background-color: rgb(244, 247, 251);
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 69.375rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 38.75rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.563rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+
+    p {
+      font-size: 0.875rem;
+      color: rgb(40, 39, 57);
+    }
+  }
+
+  &__form {
+    min-height: 21.688rem;
+  }
+}

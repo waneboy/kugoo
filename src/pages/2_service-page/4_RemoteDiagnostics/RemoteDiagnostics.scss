@@ -1,0 +1,62 @@
+.remote-diagnostics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 26.313rem;
+
+  &__banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 86.25rem;
+    min-height: 26.313rem;
+    background-image: url(../img/remote-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1.563rem;
+    width: 100%;
+    max-width: 40.625rem;
+  }
+
+  &__label {
+    padding: 0.188rem 0.75rem;
+    border-radius: 0.313rem;
+    background-color: rgb(117, 209, 74);
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__title {
+    max-width: 34.375rem;
+    font-size: 2.188rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 3.313rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.313rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 137, 253);
+
+    &:hover {
+      border: 1px solid rgb(255, 255, 255);
+      background-color: rgb(60, 137, 253);
+      color: rgb(255, 255, 255);
+    }
+  }
+}

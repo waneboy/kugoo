@@ -1,0 +1,69 @@
+.wholesale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 27.813rem;
+}
+.wholesale__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 86.25rem;
+  min-height: 27.813rem;
+  padding: 2.5rem 0;
+  border-radius: 0.625rem;
+  background-color: rgb(244, 247, 251);
+}
+.wholesale__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.75rem;
+  width: 100%;
+  max-width: 69.375rem;
+  height: 95%;
+  padding: 0 0.625rem;
+}
+.wholesale__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.563rem;
+}
+.wholesale__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.313rem;
+}
+.wholesale__head .section-title {
+  max-width: 50rem;
+}
+.wholesale__text {
+  font-size: 1.25rem;
+  color: rgb(40, 39, 57);
+}
+.wholesale__benefits {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.938rem;
+}
+.wholesale__benefit {
+  display: flex;
+  align-items: center;
+  gap: 0.938rem;
+}
+.wholesale__benefit p {
+  font-size: 0.875rem;
+  font-weight: bold;
+  white-space: pre-line;
+}
+.wholesale__benefit-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.313rem;
+  background-color: rgb(231, 234, 250);
+}

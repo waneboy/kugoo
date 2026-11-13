@@ -1,0 +1,208 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 11.5rem;
+  background-color: rgb(255, 255, 255);
+}
+.header__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 2.25rem;
+}
+.header__top-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 69.375rem;
+  min-height: 2.25rem;
+}
+.header__top-left {
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+}
+.header__links {
+  display: flex;
+  gap: 0.625rem;
+}
+.header__links li {
+  display: flex;
+}
+.header__link {
+  padding: 0 0.625rem;
+  font-size: 0.75rem;
+  line-height: 2;
+  color: rgb(93, 108, 123);
+  transition: all 0.3s ease;
+}
+.header__link:hover {
+  transform: scale(1.2);
+}
+.header__messengers {
+  display: flex;
+  gap: 0.5rem;
+}
+.header__messengers li {
+  display: flex;
+}
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.header__phone {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: rgb(40, 39, 57);
+}
+.header__phone-button {
+  width: 1.125rem;
+  height: 1.125rem;
+  transition: all 0.3s ease;
+}
+.header__phone-button:hover {
+  transform: scale(1.1);
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 6.563rem;
+}
+.header__nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 69.375rem;
+  min-height: 6.563rem;
+  margin: 0 0.625rem;
+}
+.header__catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  width: 7.125rem;
+  height: 2.5rem;
+  border-radius: 0.313rem;
+  background-color: rgb(111, 115, 238);
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.header__catalog:hover {
+  transform: scale(1.05);
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 37.5rem;
+  height: 2.5rem;
+  border: 2px solid rgb(111, 115, 238);
+  border-radius: 0.313rem;
+}
+.header__search-where {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  width: 4.75rem;
+  height: 2rem;
+  margin: 0.25rem 0 0.25rem 0.25rem;
+  border-radius: 0.313rem;
+  background-color: rgb(244, 247, 251);
+  font-size: 0.875rem;
+  color: rgb(40, 39, 57);
+}
+.header__search-where:hover {
+  transform: scale(1.05);
+}
+.header__search-field {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 2.5rem;
+}
+.header__search-input {
+  width: 100%;
+  font-size: 0.875rem;
+}
+.header__search-input::placeholder {
+  font-size: 0.875rem;
+  color: rgb(93, 108, 123);
+}
+.header__search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background-color: rgb(111, 115, 238);
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 1.563rem;
+}
+.header__action {
+  display: flex;
+  align-items: center;
+  gap: 0.438rem;
+  color: rgb(10, 9, 13);
+}
+.header__action:hover {
+  transform: scale(1.05);
+}
+.header__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 2.5rem;
+  background-color: rgb(244, 247, 251);
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 69.375rem;
+  min-height: 2.5rem;
+}
+.header__menu li {
+  display: flex;
+}
+.header__menu-link {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 0.5rem;
+  padding: 0 0.938rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 2;
+  color: rgb(40, 39, 57);
+  transition: all 0.3s ease;
+}
+.header__menu-link:hover {
+  transform: scale(1.05);
+}
+.header__menu-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.125rem 0.5rem;
+  border-radius: 6.25rem;
+  background-color: rgb(111, 115, 238);
+  font-size: 0.625rem;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}

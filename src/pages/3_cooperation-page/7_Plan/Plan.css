@@ -1,0 +1,70 @@
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 30.938rem;
+}
+.plan__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 86.25rem;
+  min-height: 30.938rem;
+  padding: 0 0.625rem;
+  border-radius: 0.625rem;
+  background-color: rgb(111, 115, 238);
+}
+.plan__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 69.375rem;
+  min-height: 30.938rem;
+}
+.plan__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.plan__label {
+  width: min-content;
+  padding: 0.188rem 0.5rem;
+  border-radius: 0.313rem;
+  background-color: rgb(117, 209, 74);
+  font-size: 0.875rem;
+  color: rgb(255, 255, 255);
+}
+.plan__title {
+  color: rgb(255, 255, 255);
+}
+.plan__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.plan__list-title {
+  font-size: 1.125rem;
+  color: rgb(255, 255, 255);
+}
+.plan__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.438rem;
+}
+.plan__item {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.plan__item p {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.plan__form {
+  gap: 0.938rem;
+  border: 1px solid rgb(255, 255, 255);
+}

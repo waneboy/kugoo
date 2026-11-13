@@ -1,0 +1,63 @@
+.promo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 26.313rem;
+  margin: 0 auto;
+
+  &__banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 86.25rem;
+    min-height: 26.313rem;
+    margin: 0 auto;
+    border-radius: 0.625rem;
+    background-image: url(../img/promo-background.png);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 45%;
+    min-height: 17.938rem;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.375rem;
+    height: 1.688rem;
+    padding: 0.188rem 1.063rem;
+    border-radius: 0.313rem;
+    background-color: rgb(238, 104, 95);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+  }
+
+  &__title {
+    max-width: 28.125rem;
+    font-size: 2.188rem;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+  }
+
+  &__link {
+    padding: 0.938rem 3.125rem;
+    border-radius: 0.313rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    color: rgb(40, 39, 57);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

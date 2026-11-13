@@ -1,0 +1,111 @@
+.drive-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 27.813rem;
+
+  &__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 86.25rem;
+    min-height: 27.813rem;
+    padding: 0 0.625rem;
+    border-radius: 0.625rem;
+    background-image: url(../img/hero-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.25rem;
+    width: 100%;
+    max-width: 69.375rem;
+    min-height: 20.813rem;
+  }
+
+  &__place {
+    display: flex;
+    gap: 0.5rem;
+
+    p {
+      font-size: 0.75rem;
+    }
+  }
+
+  &__address {
+    color: rgb(255, 255, 255);
+  }
+
+  &__time {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &__head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.438rem;
+  }
+
+  &__title {
+    max-width: 40.625rem;
+    font-size: 2.188rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+  }
+
+  &__benefits {
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+  }
+
+  &__benefit {
+    display: flex;
+    align-items: center;
+    gap: 0.938rem;
+
+    p {
+      max-width: 9.375rem;
+      font-size: 0.875rem;
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  &__benefit-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.313rem;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  &__button {
+    width: 9.938rem;
+    height: 3.313rem;
+    border: 1px solid rgb(111, 115, 238);
+    border-radius: 0.313rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    color: rgb(111, 115, 238);
+
+    &:hover {
+      border: 1px solid rgb(255, 255, 255);
+      background-color: rgb(111, 115, 238);
+      color: rgb(255, 255, 255);
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.scheme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.75rem;
+    width: 100%;
+    max-width: 69.375rem;
+  }
+
+  &__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.938rem;
+
+    .section-title {
+      max-width: 55rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.125rem;
+    color: rgb(40, 39, 57);
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 62.5rem;
+  }
+
+  &__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 62.5rem;
+  }
+
+  &__step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.938rem;
+    max-width: 11.25rem;
+
+    h4 {
+      font-size: 1rem;
+      color: rgb(40, 39, 57);
+    }
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.875rem;
+    height: 6.875rem;
+    border-radius: 50%;
+    background-color: rgb(244, 247, 251);
+  }
+
+  &__turns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__turn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 7.5rem;
+  }
+}

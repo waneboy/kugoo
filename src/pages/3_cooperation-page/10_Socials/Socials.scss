@@ -1,0 +1,81 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 69.375rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.938rem;
+    max-width: 43.75rem;
+  }
+
+  &__text {
+    font-size: 1.125rem;
+    color: rgb(40, 39, 57);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 100%;
+    max-width: 20rem;
+    min-height: 16.875rem;
+    border-radius: 0.625rem;
+    background-color: rgb(244, 247, 251);
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 15.938rem;
+    height: 2.813rem;
+    padding: 0.75rem 0.938rem;
+    border-radius: 0.313rem;
+
+    p {
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    &--vk {
+      background-color: rgb(75, 114, 159);
+    }
+
+    &--instagram {
+      background-image: linear-gradient(10deg, rgb(255, 193, 7), rgb(244, 67, 54), rgb(156, 39, 176));
+    }
+
+    &--youtube {
+      background-color: rgb(229, 57, 53);
+    }
+
+    &--telegram {
+      background-color: rgb(3, 155, 229);
+    }
+  }
+
+  &__name {
+    display: flex;
+    align-items: center;
+    gap: 0.938rem;
+
+    h5 {
+      font-size: 0.875rem;
+      color: rgb(255, 255, 255);
+    }
+  }
+}

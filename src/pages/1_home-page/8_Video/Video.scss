@@ -1,0 +1,43 @@
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  user-select: none;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 86.25rem;
+    min-height: 39.375rem;
+    border-radius: 0.625rem;
+    background-image: url(../img/video-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 6.25rem;
+    background-color: rgb(255, 255, 255);
+
+    img {
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      transform: scale(0.95);
+
+      img {
+        transform: scale(1.35);
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.models {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.models__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.125rem;
+  width: 100%;
+  max-width: 69.375rem;
+}
+.models__title {
+  max-width: 46.875rem;
+  text-align: center;
+}
+.models__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  width: 100%;
+}/*# sourceMappingURL=Models.css.map */

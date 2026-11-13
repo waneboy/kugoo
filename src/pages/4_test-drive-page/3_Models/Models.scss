@@ -1,0 +1,27 @@
+.models {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.125rem;
+    width: 100%;
+    max-width: 69.375rem;
+  }
+
+  &__title {
+    max-width: 46.875rem;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    width: 100%;
+  }
+}
